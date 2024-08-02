@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "img": "Absolute_Group_Standart.png",
+        "title": "Absolute Group Standart 106 для холодной воды",
+        "price": "100000",
+        "install": "Под мойкой",
+        "type": "Фильтр",
+        "func": "Обратный осмос",
+        "waterPipes": true,
+        "purificationStages": "5",
+        "FilterModuleIncluded": true,
+        "Equipment": "отдельный кран, накопительная емкость, помпа для повышения давления",
+        "volume": "12",
+        "Maximum performance": "220л/сутки",
+        "Inlet pressure": "1.5",
+        "weith": "11.5 кг"
+        
+    },
+    {
+        "id": 2,
+        "img": "Absolute_Group_A28.png",
+        "title": "Absolute Group A28 для холодной воды",
+        "price": "160000",
+        "install": "Под мойкой",
+        "type": "Фильтр",
+        "func": "Обратный осмос",
+        "waterPipes": true,
+        "purificationStages": "5",
+        "FilterModuleIncluded": true,
+        "Equipment": "отдельный кран, накопительная емкость, помпа для повышения давления",
+        "volume": "9",
+        "Maximum performance": "220л/сутки",
+        "Inlet pressure": "1.5",
+        "weith": "11.5 кг"
+        
+    },{
+        "id": 3,
+        "img": "ESMA.png",
+        "title": "Absolute Group ESMA",
+        "price": "320000",
+        "install": "Под мойкой",
+        "type": "Фильтр",
+        "func": "Обратный осмос",
+        "waterPipes": true,
+        "purificationStages": "6",
+        "FilterModuleIncluded": true,
+        "Equipment": "отдельный кран, накопительная емкость, помпа для повышения давления",
+        "volume": "9",
+        "Maximum performance": "220л/сутки",
+        "Inlet pressure": "1.5",
+        "weith": "12 кг"
+    },{
+        "id": 4,
+        "img": "COMPACT.png",
+        "title": "Absolute Group COMPACT",
+        "price": "210000",
+        "install": "Под мойкой",
+        "type": "Фильтр",   
+        "func": "Обратный осмос",
+        "waterPipes": true,
+        "purificationStages": "6",
+        "FilterModuleIncluded": true,
+        "Equipment": "Отдельный кран, накопительная емкость, помпа для повышения давления",
+        "volume": "9",
+        "Maximum performance": "220л/сутки",
+        "Inlet pressure": "1.5",
+        "weith": "12 кг"
+    },{
+        "id": 5,
+        "img": "g106.png",
+        "title": "Absolute Group G106",
+        "price": "162000",
+        "install": "Под мойкой",
+        "type": "Фильтр",   
+        "func": "Обратный осмос",
+        "waterPipes": true,
+        "purificationStages": "5",
+        "FilterModuleIncluded": true,
+        "Equipment": "Отдельный кран, накопительная емкость, помпа для повышения давления",
+        "volume": "12",
+        "Maximum performance": "300k/сутки",
+        "Inlet pressure": "1.5",
+        "weith": "8 кг"
+    }
+    
+]

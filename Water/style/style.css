@@ -1,0 +1,306 @@
+.no-select{
+    user-select: none
+}
+
+
+body{
+    
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+
+.navbar a{
+    color:black;
+}
+
+.logo{
+    width: 64px;
+    height: 64px;
+    padding-right: 15px;
+
+}
+
+ul{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+
+}
+
+ul li{
+
+    min-width: 85px;
+}
+
+.block-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(41, 36, 36, 0.426), rgba(0, 0, 0, 0.5)),
+                  url("/images/2209.i605.038.S.m005.c13.drinking\ water\ family\ illustration.jpg");
+    background-size:cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.block-wrapper-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+    color:white;
+
+
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.lending-button{
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+
+.water{
+    margin-top: 50px;
+    background-image: url("/images/morskajaVoda.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    color: white;
+}
+
+
+
+.works{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carousel{
+    margin:30px;
+}
+
+.carousel img{
+    height: 125px;
+    width: 125px;
+}
+
+.our-services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+.our-services-cards{
+    margin-top: 35px;
+    padding: 10px;
+    height: 300px;
+    max-width: 1200px;
+    max-height: 500px;
+}
+
+.col{
+    max-width: 600px;
+    margin-left: 20px;
+}
+
+ p {
+    font-size: calc(2px + 1vw);
+    
+}
+
+.cards-image{
+    height: 280px;
+    width: 450;
+}
+
+
+.products{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(240,241,242);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 200px;
+    height: 340px;
+
+
+
+    -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.card_top{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 140px;
+    width: 140px;
+    height: 170px;
+}
+
+.card_bottom{
+    padding: 5px;
+    display: flex;
+    flex-direction:column;
+    line-height: 18px;
+}
+
+.card_title {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    color: #464c53;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.card_price{
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.card_add{
+    font-size: 14px;
+    font-weight: 600;
+    width: 100%;
+    height: 32px;
+
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 7px;
+}
+
+.delivery{
+    background:linear-gradient(rgba(41, 36, 36, 0.426), rgba(0, 0, 0, 0.5)),
+     url("/images/delivery.jpg") no-repeat center/100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    color: white;
+    
+}
+
+.more-cards-btn{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: max-content;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: black;
+
+}
+footer{
+    color:white;
+}
+
+.footer-content{
+    padding: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-contacts{
+    margin: 50px;
+}
+
+
+
+.basket {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    z-index: 9999;
+    background-color: #337AB7;
+    background-image: url("/images/basket-shopping-solid.svg");
+    background-size: 50%; 
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.basket:before,
+.basket:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #337AB7;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: border-animate 1.5s linear infinite;
+    opacity: 0;
+}
+.basket:after{
+    animation-delay: .5s;
+}
+@keyframes border-animate
+{
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
